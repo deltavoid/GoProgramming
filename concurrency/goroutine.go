@@ -13,6 +13,8 @@ func say(s string) {
 }
 
 func main() {
+	// from goroutine to function
+	// create, exit, run, yield
 	go say("world")
 	say("hello")
 }
