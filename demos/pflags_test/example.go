@@ -32,7 +32,7 @@ func ExampleFlagSet_ShorthandLookup() {
 	// len(short) must be == 1
 	flag := fs.ShorthandLookup(short)
 
-	fmt.Println(flag.Name)
+	fmt.Println(flag.Name, flag.Value)
 }
 
 
