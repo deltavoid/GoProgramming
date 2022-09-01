@@ -1,0 +1,11 @@
+
+
+
+
+go mod init <name>
+
+go get github.com/spf13/pflag
+
+
+go run xxx.go
+
