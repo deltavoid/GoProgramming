@@ -24,6 +24,13 @@ func new_map2() map[string]int {
     return m
 }
 
+func new_map3() *map[string]int {
+
+    m := map[string]int{"foo": 1, "bar": 2}
+
+    fmt.Printf("new_map3: m: %p\n", &m)
+    return &m
+}
 
 func display_map1(m map[string]int) {
 
@@ -66,8 +73,13 @@ func main() {
     fmt.Printf("m2: %p\n", &m2)
     display_map1(m2)
     display_map2(&m2)
+    fmt.Println()
     
 
+    m3_p := new_map3()
+    fmt.Printf("m3: %p\n", m3_p)
+    display_map1(*m3_p)
+    display_map2(m3_p)
 
 
 }
