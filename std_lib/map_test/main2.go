@@ -55,6 +55,12 @@ func display_map2(m *map[string]int) {
 
     }
 
+}
+
+
+func update_map(m map[string]int) {
+
+    m["hello"] = 1
 
 }
 
@@ -80,6 +86,13 @@ func main() {
     fmt.Printf("m3: %p\n", m3_p)
     display_map1(*m3_p)
     display_map2(m3_p)
+    fmt.Println()
+
+    
+    m4 := new_map1()
+    fmt.Printf("m4: %p\n", m4)
+    update_map(m4)
+    display_map1(m4)
 
 
 }
