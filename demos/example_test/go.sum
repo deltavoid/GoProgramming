@@ -6,3 +6,5 @@ github.com/deltavoid/golang-example v0.0.0-20220905103841-298ed58659fc h1:AV4Adr
 github.com/deltavoid/golang-example v0.0.0-20220905103841-298ed58659fc/go.mod h1:CAV8TFVyt1Wfpoh3KfEZD+o75we/5+ovKpfqteyseYU=
 github.com/deltavoid/golang-example v0.0.0-20220905104308-59980b000be1 h1:ZJyuZpebhAoRMVLoSt+QIBKW7FV+oRU+W6zQQXpnjns=
 github.com/deltavoid/golang-example v0.0.0-20220905104308-59980b000be1/go.mod h1:CAV8TFVyt1Wfpoh3KfEZD+o75we/5+ovKpfqteyseYU=
+github.com/deltavoid/golang-example v0.0.0-20220916054917-6896f83e2573 h1:6kXPVyX6j+mM9CVRQyVsByqBo3lG0Htd0QoKLU2A6aA=
+github.com/deltavoid/golang-example v0.0.0-20220916054917-6896f83e2573/go.mod h1:CAV8TFVyt1Wfpoh3KfEZD+o75we/5+ovKpfqteyseYU=
